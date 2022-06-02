@@ -1,5 +1,6 @@
 const spaceImport = require('contentful-import')
 const exportFile = require('./export.json')
+var contentful = require('contentful');
 
 const [CONTENTFUL_SPACE_ID, CONTENTFUL_MANAGEMENT_TOKEN] = process.argv.slice(2)
 
